@@ -1,0 +1,63 @@
+body {
+    background-color: rgb(159 208 231);
+    
+}
+.circle {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 50px;
+}
+  
+.rounded {
+    width: 130px;
+    height: 130px;
+    border-radius: 25%;
+    float: left;
+    margin-right: 50px;
+}
+  
+.square {
+    width: 130px;
+    height: 130px;
+    border-radius: 0%;
+    float: left;
+    margin-right: 50px;
+}
+h1 {
+    padding: 10px;
+    width: fit-content;
+    text-align: center;
+    color: aliceblue;
+    background-color: black;
+}
+button:hover {
+    cursor: pointer;
+    background-color: rgb(77, 165, 165);
+}
+button {
+    text-align: center;
+    margin: 10px;
+    width: 103px;
+    height: 76px;
+    background-color: aqua;
+    border: 2px solid black;
+}
+
+  #showsup {
+    float: right;
+    display: flex;
+    margin: 32px;
+  }
+#circle {
+    background-color: #f78012;
+}
+  
+#rounded {
+    background-color: #f3f4f5;
+}
+  
+#square {
+    background-color: #19f876;
+}
